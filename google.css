@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+section header ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    margin-left: 20px;
+}
+section header ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 16px;
+}
+section header ul li button{
+    background: #4584ef;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button{
+    color: white;
+}section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .searchbox .search{
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 18px;
+}
+section .main .icon{
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    width: 110%;
+    margin-left: 80px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none
+}
+.img{
+    margin-left: 70px;
+}
